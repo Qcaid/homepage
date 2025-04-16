@@ -1,144 +1,51 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>hemopage</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-</head>
-
-<body>
-  <header>
-    <h1>🥦菜的个人主页🥦</h1>
-  </header>
-  <div class="layout-container">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caihomepage</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>🥦这里是菜菜的主页🥦</h1>
+    </header>
+    <div id="social-links">
+      <a href="https://t.me/hambagaer" class="telegram"><i class="fab fa-telegram"></i></a>
+      <a href="https://github.com/qcaid" class="github"><i class="fab fa-github"></i></a>
+      <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+    </div>
     <main>
-      <section id="projects">
-        <h2>项目展示</h2>
-        <div class="filter-buttons">
-          <button class="filter-btn active" data-filter="all">全部</button>
-          <button class="filter-btn" data-filter="web">Web项目</button>
-          <button class="filter-btn" data-filter="mobile">移动项目</button>
-        </div>
-        <div class="project-list">
-          <!-- 项目展示内容将通过js动态添加 -->
-        </div>
+      <section id="about">
+        <h2>READCAI</h2>
+        <p>关于菜菜</p>
+        <pre><code>{
+  "name": "菜菜",
+  "age": 21,
+  "occupation": "在读大学生",
+  "hobbies": ["编程", "吃好吃的", "涩涩"]
+}</code></pre>
+<p>菜菜名字的由来：菜菜很喜欢吃绿叶菜，但是她有不爱动脑想可爱的名字，所以就叫菜菜啦~</p>
       </section>
-      <section id="tech-stack">
-        <h2>技术栈</h2>
-        <ul>
-          <li>
-            <i class="fab fa-html5"></i> HTML5 &amp; CSS3
-            <div class="progress-container">
-              <div class="progress-bar" style="width: 90%"></div>
-            </div>
-          </li>
-          <li>
-            <i class="fab fa-js"></i> JavaScript (ES6+)
-            <div class="progress-container">
-              <div class="progress-bar" style="width: 85%"></div>
-            </div>
-          </li>
-          <li>
-            <i class="fab fa-react"></i> React
-            <div class="progress-container">
-              <div class="progress-bar" style="width: 60%"></div>
-            </div>
-          </li>
-          <li>
-            <i class="fab fa-vuejs"></i> Vue
-            <div class="progress-container">
-              <div class="progress-bar" style="width: 75%"></div>
-            </div>
-          </li>
-          <li>
-            <i class="fab fa-node-js"></i> Node.js
-            <div class="progress-container">
-              <div class="progress-bar" style="width: 65%"></div>
-            </div>
-          </li>
-          <li>
-            <i class="fab fa-python"></i> Python
-            <div class="progress-container">
-              <div class="progress-bar" style="width: 70%"></div>
-            </div>
-          </li>
-          <li>
-            <i class="fab fa-git-alt"></i> Git
-            <div class="progress-container">
-              <div class="progress-bar" style="width:50%"></div>
-            </div>
-          </li>
-          <li>
-            <i class="fab fa-java"></i> Java
-            <div class="progress-container">
-              <div class="progress-bar" style="width: 65%"></div>
-            </div>
-          </li>
-          <li>
-            <i class="fab fa-rust"></i> Rust
-            <div class="progress-container">
-              <div class="progress-bar" style="width: 30%"></div>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section id="thoughts">
-        <h2>碎碎念</h2>
-        <div class="thoughts-content">
-          <p>
-            这里是菜的个人主页，不是很好看，但是我会尽力去美化它。
-          </p>
-        </div>
+      <section id="friends">
+        <h2>Friends</h2>
+        <p>施工ing🚧 大家快来互换链接呀</p>
       </section>
       <section id="thanks">
-        <h2>感谢</h2>
-        <div class="thanks-content">
-          <p>特别感谢与岭姐姐赠送的vegecai.moe域名！！！</p>
-        </div>
+        <h2>About</h2>
+        <p>很早就准备搞个homepage但是一直鸽，如今终于搭出来了！</p>
+        <p>特别感谢<strong>与岭姐姐</strong>赠送的域名 heart*&hearts;</p>
       </section>
     </main>
-    <aside class="sidebar">
-      <section id="about">
-        <h2>关于我</h2>
-        <img src="img/avatar.jpg" alt="我的头像" class="avatar">
-        <p class="bio">
-        <p>菜是一个想变可爱的孩子
-          <br>
-          菜喜欢吃好吃的的东西
-        </p>
 
-        </p>
-      </section>
-      <section id="contact">
-        <h2>联系方式</h2>
-        <ul>
-          <li>
-            <a href="https://github.com/qcaid" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-          </li>
-          <li>
-            <a href="#" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
-          </li>
-          <li>
-            <a href="https://t.me/hambagaer" target="_blank"><i class="fab fa-telegram"></i> Telegram</a>
-          </li>
-        </ul>
-      </section>
-    </aside>
-  </div>
-  <footer>
-    <p>&copy; 2025 vegetblecai_homepaage</p>
-  </footer>
-  <script src="script.js"></script>
-
-  
-    <div id="pc-popup">
-      <h2>最佳体验提示</h2>
-      <p>为了获得最佳体验，请在PC端浏览此页面。</p>
-      <button onclick="closePopup()">关闭</button>
-    </div>
+    <footer>
+      <p>© 2025 vegetble_ccai homepage</p>
+      <p>守岁花开，季季不同</p>
+    </footer>
+    <script src="script.js"></script>
   </body>
-
 </html>
