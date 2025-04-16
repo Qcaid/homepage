@@ -180,3 +180,20 @@ footer {
         transform: translateY(-5px);
     }
 }
+
+#friends a {
+    color: #62da94;
+    text-decoration: underline wavy #ea6666;
+    background: rgba(98,218,148,0.08);
+    border-radius: 6px;
+    padding: 3px 10px;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    font-weight: bold;
+    box-shadow: 0 1px 4px rgba(98,218,148,0.08);
+}
+#friends a:hover {
+    color: #ea6666;
+    background: rgba(234,102,102,0.12);
+    text-decoration: underline wavy #62da94;
+    box-shadow: 0 2px 8px rgba(234,102,102,0.15);
+}
