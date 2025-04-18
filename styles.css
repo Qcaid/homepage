@@ -154,7 +154,9 @@ footer {
 #social-links a.twitter {
     color: #1da1f2;
 }
-
+#social-links a.blog {
+    color: #fb259b;
+}
 #social-links a.telegram:hover {
     color: #0088cc;
     transform: scale(1.2);
@@ -171,7 +173,10 @@ footer {
     color: #1da1f2;
     transform: scale(1.2);
 }
-
+#social-links a.blog:hover {
+    color: #e159a4;
+    transform: scale(1.2);
+}
 @keyframes bounce {
     from {
         transform: translateY(0);
